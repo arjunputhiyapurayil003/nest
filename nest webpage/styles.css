@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+}
+
+header {
+  background-color: #e0e0e0;
+  padding: 30px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.logo {
+  height: 45px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-btn {
+  padding: 8px 14px;
+  background-color: #ffffff;
+  color: #2c3e50;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contact-btn {
+  padding: 8px 18px;
+  background-color: #ff5c5c;
+  color: white !important;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Banner section */
+.banner-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  text-align: center;
+  max-width: 80%;
+}
+
+.industries {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.industries h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.industries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.industry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 140px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #34495e;
+}
+
+.industry img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.site-footer {
+  background-color: #e3e3e3;
+  padding: 20px 20px;
+  font-size: 14px;
+  color: #2c3e50;
+  border-top: 1px solid #ccc;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #bebebe;
+  padding: 50px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  padding: 30px;
+  font-size: 18px;
+  line-height: 1;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #bebebe;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+}
